@@ -1,3 +1,81 @@
 body{
-  background: red;
+  margin: 0;
+  padding: 0;
+  background: rgba(28, 12, 24, 0.1);
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+header{
+  background: blue;
+}
+
+.wrap{
+  width: 40%;
+  padding: 50px;
+  box-shadow: 0px 0px 3px grey;
+  margin-right: 164px;
+  height: 50%;
+  margin:auto;
+}
+
+.contenedor-formulario{
+  /*float: right;*/
+  margin-top: 100px
+}
+
+.contenedor-formulario .wrap .formulario .input-group input[type="text"]{
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 2px solid black;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.contenedor-formulario .wrap .formulario .input-group .label{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
+}
+
+.contenedor-formulario .wrap .formulario .input-group input[type="email"]{
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 2px solid black;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.contenedor-formulario .wrap .formulario .input-group .email{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
+}
+
+.contenedor-formulario .wrap .formulario .input-group input[type="password"]{
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 2px solid black;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.contenedor-formulario .wrap .formulario .input-group .password{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
+}
+
+.input-enviar{
+  margin-top: 20px;
+}
+
+.input-enviar input[type="submit"]{
+  padding: 7px 15px;
+  background: blue;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-enviar input[type="submit"]:hover{
+  background: yellow;
 }
