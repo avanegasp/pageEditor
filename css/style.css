@@ -64,6 +64,9 @@ header{
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 20px;
 }
+.has-error{
+  color: red;
+}
 
 .input-enviar{
   margin-top: 20px;
