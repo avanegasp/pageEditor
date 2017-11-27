@@ -20,18 +20,20 @@
         }
 
     // VALIDAR ENVIO
-      // var destino = "code.html";
-      //
-      // function reedireccionar(){
-      //   location.href=destino;
-      // };
+      var destino = "codemirror.html";
+
+      function reedireccionar(){
+        location.href=destino;
+      };
+
+
 
       var enviar = function(e){
         if(!validarInputs()){
-          console.log('falto validar los inputs');
+          // console.log('falto validar los inputs');
           e.preventDefault();
-        // })else if(!reedireccionar()){
-        //   console.log('envia correctamente')
+        }else if(!reedireccionar()){
+          console.log('envia correctamente')
          }else{
            console.log('todos los campos estan llenos')
            e.preventDefault();
